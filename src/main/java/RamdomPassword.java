@@ -465,15 +465,5 @@ public class RamdomPassword {
         return fontAwesome[rd.nextInt(fontAwesome.length)];
     }
 
-    public static void main(String[] args) {
 
-        Random r = new Random();
-        System.out.println("random color " + getRandomColor());
-        System.out.println("random icon " + getRandomIcon());
-//        String password = "";
-//        for (int i = 0; i < 6; i++) {
-//            password += nextSessionId().toUpperCase();
-//        }
-//        System.out.printf(password);
-    }
 }
